@@ -6,4 +6,6 @@ public interface UserService {
     int addUser(User user);
 
     User getUserById(int id);
+
+    List<User> getAllUsers();
 }
